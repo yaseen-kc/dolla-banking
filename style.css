@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Popins, sans-serif;
 }
+
 /* Navabar-Start */
 .navbar {
     background: #131313;
@@ -81,6 +82,7 @@
 .mid .hero a:hover {
     background-color: #fff;
 }
+
 /* Video-End */
 
 /* About-Start */
@@ -125,6 +127,7 @@
     text-decoration: none;
     color: #111;
 }
+
 /* About-End */
 
 /* Discover-Start */
@@ -168,4 +171,23 @@
     text-decoration: none;
     color: #111;
 }
+
 /* Dicover-End */
+
+
+/* Service-Start */
+
+.service {
+    background-color: #000;
+}
+
+.service .one {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
