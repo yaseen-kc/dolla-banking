@@ -164,12 +164,12 @@
 }
 
 .discover .text a {
-    background-color: #00BF85;
+    background-color: #131313;
     font-weight: 600;
     padding: 0.6rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
-    color: #111;
+    color: #fff;
 }
 
 /* Dicover-End */
@@ -190,4 +190,46 @@
     text-align: center;
     padding: 2rem 1.5rem;
     border-radius: 7px;
+}
+
+
+.sign {
+    background-color: #fff;
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.sign .text p {
+    color: #131313;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a {
+    background-color: #131313;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
 }
