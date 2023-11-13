@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: Popins, sans-serif;
 }
-
+/* Navabar-Start */
 .navbar {
     background: #131313;
     padding: 1rem 8rem;
@@ -35,6 +35,8 @@
     border-radius: 30px;
 }
 
+/* Navabar-End */
+/* Video-Start */
 .mid {
     width: 100%;
     height: 100vh;
@@ -76,6 +78,94 @@
     text-decoration: none;
 }
 
-.mid .hero a:hover{
+.mid .hero a:hover {
     background-color: #fff;
 }
+/* Video-End */
+
+/* About-Start */
+
+.about {
+    background-color: #000;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: #f7f4f5;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.about .text p {
+    color: #f7f4f5;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.about .text a {
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+/* About-End */
+
+/* Discover-Start */
+.discover {
+    background-color: #fff;
+}
+
+.discover .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discover .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discover .text h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discover .text p {
+    color: #131313;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.discover .text a {
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+/* Dicover-End */
