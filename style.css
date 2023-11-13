@@ -56,3 +56,26 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.mid .hero {
+    position: relative;
+}
+
+.mid .hero p {
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+
+.mid .hero a {
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .hero a:hover{
+    background-color: #fff;
+}
